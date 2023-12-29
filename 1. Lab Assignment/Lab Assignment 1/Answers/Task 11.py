@@ -4,4 +4,4 @@ num=int(input("Enter a number: "))
 # else:
 #   print (False)
 check=num%2
-print(check==0
+print(check==0)
