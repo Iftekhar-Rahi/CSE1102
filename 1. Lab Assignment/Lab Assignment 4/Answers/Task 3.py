@@ -1,12 +1,10 @@
-word=input("Enter a string: ")
-checker=True
-for i in word:
-  if i=="1" or i=="0":
-    pass
-  else:
-    checker=False
+word=input()
+flag=True
+for i in range(0,len(word)):
+  if word[i]!="0" and word[i]!="1":
+    flag=False
     break
-if checker==True:
+if flag==True:
   print("Binary Number")
-else:
-  print("Not a Binary Number")
+elif flag==False:
+  print("Not a binary Number")

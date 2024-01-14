@@ -1,4 +1,3 @@
-
 word=input("Enter the string: ")
 index=int(input("Enter the index where to reverse: "))
 rest=word[index+1: : ]
