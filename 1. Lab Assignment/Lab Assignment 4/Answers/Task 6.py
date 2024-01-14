@@ -1,3 +1,3 @@
-word=input("Enter a string: ")
-for i in word:
-  print(f"{i} : {ord(i)}")
+word=input()
+for i in range(0,len(word)):
+  print(f"{word[i]}:{ord(word[i])}")
